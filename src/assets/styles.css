@@ -1,3 +1,13 @@
 body {
   background: #424649;
 }
+img {
+  width: 200px;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
