@@ -30,7 +30,7 @@ return (
     <>
         <center><h3 style={{color: "#ddd"}}>Discover</h3></center>
         <div className="container">
-            <ul style={{ display: 'flex', justifyContent: 'space-between', alignItems: "center"}}>
+            <ul style={{ display: 'flex', justifyContent: 'space-around', alignItems: "center", width: "500px", flexWrap: "wrap"}}>
                 {data.map((item) => (
                     <li key={item.id} style={{textAlign: "center", margin: "5px",listStyle: 'none'}}>
                         <div>
